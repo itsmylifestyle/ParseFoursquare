@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A75F66182ABAF9EC002CB7AC /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75F66172ABAF9EC002CB7AC /* PlacesVC.swift */; };
+		A7973B4A2AB9A32900441B2E /* Pods_ParseFoursquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F861E682D4CAD5FD2527C138 /* Pods_ParseFoursquare.framework */; };
 		A7B0839E2AB9956B00254FFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B0839D2AB9956B00254FFC /* AppDelegate.swift */; };
 		A7B083A02AB9956B00254FFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B0839F2AB9956B00254FFC /* SceneDelegate.swift */; };
-		A7B083A22AB9956B00254FFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B083A12AB9956B00254FFC /* ViewController.swift */; };
+		A7B083A22AB9956B00254FFC /* signUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B083A12AB9956B00254FFC /* signUpVC.swift */; };
 		A7B083A52AB9956B00254FFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B083A32AB9956B00254FFC /* Main.storyboard */; };
 		A7B083A72AB9956C00254FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B083A62AB9956C00254FFC /* Assets.xcassets */; };
 		A7B083AA2AB9956C00254FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B083A82AB9956C00254FFC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D1D3A9987C13D31B54684E6 /* Pods-ParseFoursquare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseFoursquare.debug.xcconfig"; path = "Target Support Files/Pods-ParseFoursquare/Pods-ParseFoursquare.debug.xcconfig"; sourceTree = "<group>"; };
+		14D8971B5340F72BDDA6260E /* Pods-ParseFoursquare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseFoursquare.release.xcconfig"; path = "Target Support Files/Pods-ParseFoursquare/Pods-ParseFoursquare.release.xcconfig"; sourceTree = "<group>"; };
+		A75F66172ABAF9EC002CB7AC /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
 		A7B0839A2AB9956B00254FFC /* ParseFoursquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseFoursquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B0839D2AB9956B00254FFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7B0839F2AB9956B00254FFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A7B083A12AB9956B00254FFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7B083A12AB9956B00254FFC /* signUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpVC.swift; sourceTree = "<group>"; };
 		A7B083A42AB9956B00254FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7B083A62AB9956C00254FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7B083A92AB9956C00254FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7B083AB2AB9956C00254FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F861E682D4CAD5FD2527C138 /* Pods_ParseFoursquare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseFoursquare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7973B4A2AB9A32900441B2E /* Pods_ParseFoursquare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				A7B0839C2AB9956B00254FFC /* ParseFoursquare */,
 				A7B0839B2AB9956B00254FFC /* Products */,
+				BA78817A8D1C86057142FD82 /* Pods */,
+				B7749A1A91DD2B87E78CCB5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +67,31 @@
 			children = (
 				A7B0839D2AB9956B00254FFC /* AppDelegate.swift */,
 				A7B0839F2AB9956B00254FFC /* SceneDelegate.swift */,
-				A7B083A12AB9956B00254FFC /* ViewController.swift */,
+				A7B083A12AB9956B00254FFC /* signUpVC.swift */,
 				A7B083A32AB9956B00254FFC /* Main.storyboard */,
+				A75F66172ABAF9EC002CB7AC /* PlacesVC.swift */,
 				A7B083A62AB9956C00254FFC /* Assets.xcassets */,
 				A7B083A82AB9956C00254FFC /* LaunchScreen.storyboard */,
 				A7B083AB2AB9956C00254FFC /* Info.plist */,
 			);
 			path = ParseFoursquare;
+			sourceTree = "<group>";
+		};
+		B7749A1A91DD2B87E78CCB5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F861E682D4CAD5FD2527C138 /* Pods_ParseFoursquare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA78817A8D1C86057142FD82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D1D3A9987C13D31B54684E6 /* Pods-ParseFoursquare.debug.xcconfig */,
+				14D8971B5340F72BDDA6260E /* Pods-ParseFoursquare.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7B083AE2AB9956C00254FFC /* Build configuration list for PBXNativeTarget "ParseFoursquare" */;
 			buildPhases = (
+				1E83E8B45A1303BCC8E782B3 /* [CP] Check Pods Manifest.lock */,
 				A7B083962AB9956B00254FFC /* Sources */,
 				A7B083972AB9956B00254FFC /* Frameworks */,
 				A7B083982AB9956B00254FFC /* Resources */,
+				6055670F50818B9CB7FA269F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +162,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E83E8B45A1303BCC8E782B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParseFoursquare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6055670F50818B9CB7FA269F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParseFoursquare/Pods-ParseFoursquare-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParseFoursquare/Pods-ParseFoursquare-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParseFoursquare/Pods-ParseFoursquare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A7B083962AB9956B00254FFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7B083A22AB9956B00254FFC /* ViewController.swift in Sources */,
+				A7B083A22AB9956B00254FFC /* signUpVC.swift in Sources */,
 				A7B0839E2AB9956B00254FFC /* AppDelegate.swift in Sources */,
+				A75F66182ABAF9EC002CB7AC /* PlacesVC.swift in Sources */,
 				A7B083A02AB9956B00254FFC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +354,7 @@
 		};
 		A7B083AF2AB9956C00254FFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D1D3A9987C13D31B54684E6 /* Pods-ParseFoursquare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +368,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +384,7 @@
 		};
 		A7B083B02AB9956C00254FFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D8971B5340F72BDDA6260E /* Pods-ParseFoursquare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +398,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
