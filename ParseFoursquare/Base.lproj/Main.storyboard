@@ -78,7 +78,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="VHI-Ts-eVo">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <rect key="frame" x="0.0" y="44" width="393" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -108,7 +108,7 @@
             <objects>
                 <viewController id="sEa-BL-lmn" customClass="detailsVC" customModule="ParseFoursquare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HkK-VK-Mb5">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3tD-kF-fQA">
@@ -163,11 +163,11 @@
             <objects>
                 <viewController id="1cS-tX-7Yk" customClass="AddPlaceVC" customModule="ParseFoursquare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HDU-JL-zwk">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="place name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YGc-NZ-B3e">
-                                <rect key="frame" x="44" y="135" width="302" height="34"/>
+                                <rect key="frame" x="44" y="179" width="302" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="TBt-mH-vN2"/>
                                 </constraints>
@@ -175,7 +175,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="place type" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bCV-hc-kxg">
-                                <rect key="frame" x="44" y="189" width="302" height="34"/>
+                                <rect key="frame" x="44" y="233" width="302" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="CER-cT-R5f"/>
                                 </constraints>
@@ -264,7 +264,7 @@
                     <navigationItem key="navigationItem" id="vE2-0K-JnD"/>
                     <connections>
                         <outlet property="mapView" destination="vDq-1f-dDS" id="PZr-dx-9cN"/>
-                        <segue destination="fNc-eN-pA9" kind="modal" identifier="PlacesVC" modalPresentationStyle="fullScreen" id="TqP-dS-FxG"/>
+                        <segue destination="nrz-7V-WKi" kind="presentation" identifier="PlacesVC" modalPresentationStyle="fullScreen" id="ydB-29-d2s"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AZr-28-9qg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -311,7 +311,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="TqP-dS-FxG"/>
+        <segue reference="ydB-29-d2s"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="plus.rectangle" catalog="system" width="128" height="93"/>
